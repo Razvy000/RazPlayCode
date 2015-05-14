@@ -7,13 +7,15 @@ public class Rand7_Using_Rand5 {
     Random rand = new Random();
 
     // generate 0,1,2,3,4
-
     public int rand5() {
         //return (int)(Math.random()*6);
         return rand.nextInt(5);
     }
 
-    // generate 0,1,2,3,4,5,6
+    // idea: fill a range 0...x using rand5
+    // select a range 0...multiple of 7
+    // return the number mod 7    
+    // generate 0,1,2,3,4,5,6   
     public int rand7() {
 
         while (true) {
