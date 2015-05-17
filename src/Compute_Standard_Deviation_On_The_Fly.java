@@ -42,6 +42,7 @@ public class Compute_Standard_Deviation_On_The_Fly {
         
         // sum(x-mean)^2 = 
         // sumx^2 - mean^2
+        // sumx^2 - (sum x)^2
         double mean = 0;
         double std = 0;
         for (Double elem : list) {
