@@ -22,6 +22,7 @@ public class Compute_Standard_Deviation_On_The_Fly {
         return std;
     }
 
+    // Welford's method
     public double standardDeviationFly(List<Double> list) {
         double M = 0.0;
         double S = 0.0;
