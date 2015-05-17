@@ -1,6 +1,5 @@
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Compute_Mean_On_The_Fly {
@@ -28,7 +27,7 @@ public class Compute_Mean_On_The_Fly {
 
     public static void main(String[] args) {
         Compute_Mean_On_The_Fly o = new Compute_Mean_On_The_Fly();
-        int[] a = new int[]{1, 2, 3, 4, 5,6,7,8, 20};
+        int[] a = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 20};
         List<Double> b = new ArrayList<>();
         for (int i = 0; i < a.length; i++)
             b.add(new Double(a[i]));
@@ -36,5 +35,4 @@ public class Compute_Mean_On_The_Fly {
         double r2 = o.meanFly(b);
         System.out.println(r + " " + r2);
     }
-
 }
