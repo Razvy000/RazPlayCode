@@ -33,6 +33,7 @@ public class Compute_Mean_On_The_Fly {
             b.add(new Double(a[i]));
         double r = o.mean(b);
         double r2 = o.meanFly(b);
-        System.out.println(r + " " + r2);
+        System.out.println(r);
+        System.out.println(r2);
     }
 }
